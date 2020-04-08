@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>222554754394-oge0dur11g5l0r9nhactm25031hb52is.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.222554754394-oge0dur11g5l0r9nhactm25031hb52is</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDtrBBSOaQd0okHQ7UA0V1fE8-er1qc_TA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>222554754394</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.flutterengineer.cslogistics</string>
+	<key>PROJECT_ID</key>
+	<string>cs-logistics</string>
+	<key>STORAGE_BUCKET</key>
+	<string>cs-logistics.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:222554754394:ios:8a5b88835a2cb7fab67763</string>
+	<key>DATABASE_URL</key>
+	<string>https://cs-logistics.firebaseio.com</string>
+</dict>
+</plist>

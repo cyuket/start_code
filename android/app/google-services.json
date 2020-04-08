@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "222554754394",
+    "firebase_url": "https://cs-logistics.firebaseio.com",
+    "project_id": "cs-logistics",
+    "storage_bucket": "cs-logistics.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222554754394:android:8832deb9f995d5f1b67763",
+        "android_client_info": {
+          "package_name": "com.flutterengineer.cslogistics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "222554754394-9ngh218qhck3bf4r74259vusvmcg4khv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRw4KjQpElnhAgwuJGKK5vpoppnPHNfkA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "222554754394-9ngh218qhck3bf4r74259vusvmcg4khv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
