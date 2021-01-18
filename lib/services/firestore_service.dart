@@ -1,5 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:cslogistics/models/user.dart';
+import 'package:start_code/models/user.dart';
 
 class FirestoreService {
   final CollectionReference _usersCollectionReference =

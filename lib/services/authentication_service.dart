@@ -1,8 +1,8 @@
-import 'package:cslogistics/locator.dart';
-import 'package:cslogistics/models/user.dart';
+import 'package:start_code/locator.dart';
+import 'package:start_code/models/user.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/foundation.dart';
-import 'package:cslogistics/services/firestore_service.dart';
+import 'package:start_code/services/firestore_service.dart';
 
 class AuthenticationService {
   final FirebaseAuth _firebaseAuth = FirebaseAuth.instance;

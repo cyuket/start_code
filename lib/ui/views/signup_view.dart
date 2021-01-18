@@ -1,10 +1,11 @@
-import 'package:cslogistics/ui/shared/ui_helpers.dart';
-import 'package:cslogistics/ui/widgets/busy_button.dart';
-import 'package:cslogistics/ui/widgets/expansion_list.dart';
-import 'package:cslogistics/ui/widgets/input_field.dart';
+import 'package:start_code/ui/shared/base_view.dart';
+import 'package:start_code/ui/shared/ui_helpers.dart';
+import 'package:start_code/ui/widgets/busy_button.dart';
+import 'package:start_code/ui/widgets/expansion_list.dart';
+import 'package:start_code/ui/widgets/input_field.dart';
 import 'package:flutter/material.dart';
 import 'package:provider_architecture/provider_architecture.dart';
-import 'package:cslogistics/viewmodels/signup_view_model.dart';
+import 'package:start_code/viewmodels/signup_view_model.dart';
 
 class SignUpView extends StatelessWidget {
   final emailController = TextEditingController();
@@ -13,8 +14,7 @@ class SignUpView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ViewModelProvider<SignUpViewModel>.withConsumer(
-      viewModel: SignUpViewModel(),
+    return BaseView<SignUpViewModel>(
       builder: (context, model, child) => Scaffold(
         body: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 50.0),

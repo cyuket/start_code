@@ -1,4 +1,5 @@
-import 'package:cslogistics/viewmodels/startup_view_model.dart';
+import 'package:start_code/ui/shared/base_view.dart';
+import 'package:start_code/viewmodels/startup_view_model.dart';
 import 'package:flutter/material.dart';
 import 'package:provider_architecture/provider_architecture.dart';
 
@@ -7,8 +8,7 @@ class StartUpView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ViewModelProvider<StartUpViewModel>.withConsumer(
-      viewModel: StartUpViewModel(),
+    return BaseView<StartUpViewModel>(
       onModelReady: (model) => model.handleStartUpLogic(),
       builder: (context, model, child) => Scaffold(
         backgroundColor: Colors.white,

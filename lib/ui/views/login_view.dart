@@ -1,10 +1,11 @@
-import 'package:cslogistics/ui/shared/ui_helpers.dart';
-import 'package:cslogistics/ui/widgets/busy_button.dart';
-import 'package:cslogistics/ui/widgets/input_field.dart';
-import 'package:cslogistics/ui/widgets/text_link.dart';
+import 'package:start_code/ui/shared/base_view.dart';
+import 'package:start_code/ui/shared/ui_helpers.dart';
+import 'package:start_code/ui/widgets/busy_button.dart';
+import 'package:start_code/ui/widgets/input_field.dart';
+import 'package:start_code/ui/widgets/text_link.dart';
 import 'package:flutter/material.dart';
 import 'package:provider_architecture/provider_architecture.dart';
-import 'package:cslogistics/viewmodels/login_view_model.dart';
+import 'package:start_code/viewmodels/login_view_model.dart';
 
 class LoginView extends StatelessWidget {
   final emailController = TextEditingController();
@@ -12,8 +13,7 @@ class LoginView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ViewModelProvider<LoginViewModel>.withConsumer(
-      viewModel: LoginViewModel(),
+    return BaseView<LoginViewModel>(
       builder: (context, model, child) => Scaffold(
           backgroundColor: Colors.white,
           body: Padding(

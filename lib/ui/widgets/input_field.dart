@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:cslogistics/ui/shared/shared_styles.dart';
-import 'package:cslogistics/ui/shared/ui_helpers.dart';
+import 'package:start_code/ui/shared/shared_styles.dart';
+import 'package:start_code/ui/shared/ui_helpers.dart';
 
-import 'note_text.dart';
+// import 'note_text.dart';
 
 class InputField extends StatefulWidget {
   final TextEditingController controller;
@@ -109,13 +109,13 @@ class _InputFieldState extends State<InputField> {
             ],
           ),
         ),
-        if (widget.validationMessage != null)
-          NoteText(
-            widget.validationMessage,
-            color: Colors.red,
-          ),
-        if (widget.additionalNote != null) verticalSpace(5),
-        if (widget.additionalNote != null) NoteText(widget.additionalNote),
+        // if (widget.validationMessage != null)
+        //   NoteText(
+        //     widget.validationMessage,
+        //     color: Colors.red,
+        //   ),
+        // if (widget.additionalNote != null) verticalSpace(5),
+        // if (widget.additionalNote != null) NoteText(widget.additionalNote),
         verticalSpaceSmall
       ],
     );

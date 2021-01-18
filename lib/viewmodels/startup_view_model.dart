@@ -1,8 +1,8 @@
-import 'package:cslogistics/constants/route_names.dart';
-import 'package:cslogistics/locator.dart';
-import 'package:cslogistics/services/authentication_service.dart';
-import 'package:cslogistics/services/navigation_service.dart';
-import 'package:cslogistics/viewmodels/base_model.dart';
+import 'package:start_code/constants/route_names.dart';
+import 'package:start_code/locator.dart';
+import 'package:start_code/services/authentication_service.dart';
+import 'package:start_code/services/navigation_service.dart';
+import 'package:start_code/viewmodels/base_model.dart';
 
 class StartUpViewModel extends BaseModel {
   final AuthenticationService _authenticationService =

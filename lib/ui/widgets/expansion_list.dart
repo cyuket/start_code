@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:cslogistics/ui/shared/shared_styles.dart' as sharedStyles;
+import 'package:start_code/ui/shared/shared_styles.dart' as sharedStyles;
 
 class ExpansionList<T> extends StatefulWidget {
   final List<T> items;

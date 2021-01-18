@@ -1,8 +1,8 @@
-import 'package:cslogistics/ui/views/home_view.dart';
+import 'package:start_code/ui/views/home_view.dart';
 import 'package:flutter/material.dart';
-import 'package:cslogistics/constants/route_names.dart';
-import 'package:cslogistics/ui/views/login_view.dart';
-import 'package:cslogistics/ui/views/signup_view.dart';
+import 'package:start_code/constants/route_names.dart';
+import 'package:start_code/ui/views/login_view.dart';
+import 'package:start_code/ui/views/signup_view.dart';
 
 Route<dynamic> generateRoute(RouteSettings settings) {
   switch (settings.name) {

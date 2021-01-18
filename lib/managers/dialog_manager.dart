@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:cslogistics/locator.dart';
-import 'package:cslogistics/models/dialog_models.dart';
-import 'package:cslogistics/services/dialog_service.dart';
+import 'package:start_code/locator.dart';
+import 'package:start_code/models/dialog_models.dart';
+import 'package:start_code/services/dialog_service.dart';
 
 class DialogManager extends StatefulWidget {
   final Widget child;
